@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        body {
+            height: 953px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        #top {
+            width: 100vw;
+            height: 56px;
+            background: #212529;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #top-content {
+            width: 1200px;
+            display: flex;
+        }
+
+        #title {
+            margin-right: auto;
+            color: #fff;
+            font-size: 20px;
+            line-height: 40px;
+        }
+
+        #menu a {
+            display: inline-block;
+            width: 70px;
+            height: 40px;
+            color: rgba(255, 255, 255, 0.5);
+            text-decoration: none;
+            line-height: 40px;
+            text-align: center;
+        }
+
+        .a2:hover {
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        #main {
+            width: 1200px;
+            height: 100vh;
+            margin: auto;
+            padding-top: 48px;
+            padding-bottom: 48px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        #content1 {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #img {
+            width: 694px;
+            height: 308px;
+            background: #eee;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #img p {
+            font-size: 80px;
+            color: #888;
+        }
+
+        #businesscard {
+            width: 460px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        #b-content {
+            height: 206px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        #b-content div {
+            font-size: 40px;
+        }
+
+        #b-content p {
+            line-height: 1.5;
+        }
+
+        #businesscard button {
+            width: 132px;
+            height: 40px;
+            background: #0d6efd;
+            color: #fff;
+            border: 0px;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        #middle {
+            height: 100px;
+            text-align: center;
+            background: #6c757d;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            color: #fff;
+        }
+
+        #rol {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .col {
+            width: 375px;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border: 1px solid #999;
+            border-radius: 8px;
+
+        }
+
+        .c-content {
+            height: 100%;
+            padding: 12px;
+        }
+
+        h1 {
+            height: 50px;
+        }
+
+        .btn {
+            height: 50px;
+            padding: 6px 12px;
+            background: #fcfcfc;
+            display: flex;
+            align-items: center;
+            border-top: 1px solid #999;
+            border-radius: 0 0 8px 8px;
+        }
+
+        .btn button {
+            width: 80px;
+            height: 31px;
+            background: #0d6efd;
+            border: none;
+            border-radius: 4px;
+            color: #fff;
+        }
+
+        #footer {
+            height: 120px;
+            background: #212529;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="top">
+        <div id="top-content">
+            <div id="title">Start Bootstrap</div>
+            <div id="menu">
+                <a href="#" style="color: #fff;"">Home</a>
+                <a href=" #" class="a2">About</a>
+                <a href="#" class="a2">Contact</a>
+                <a href="#" class="a2">Services</a>
+            </div>
+        </div>
+    </div>
+    <div id="main">
+
+
+        <div id="content1">
+            <div id="img">
+                <p>900 x 400</p>
+            </div>
+            <div id="businesscard">
+                <div id="b-content">
+                    <div>Business Name or Tagline</div>
+                    <p>
+                        This is a template that is great for small businesses. It doesn't have too much fancy flare to
+                        it,
+                        but it makes a great use of the standard Bootstrap core components. Feel free to use this
+                        template
+                        for any project you want!
+                    </p>
+                    <button>Call to Action!</button>
+                </div>
+            </div>
+        </div>
+        <div id="middle">
+            <p>This call to action card is a great place to showcase some important information or display a clever
+                tagline!</p>
+        </div>
+        <div id="cards">
+            <div id="rol">
+                <div class="col">
+                    <div class="c-content">
+                        <h1>Card One</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime
+                            minus
+                            quam molestias corporis quod, ea minima accusamus.</p>
+                    </div>
+                    <div class="btn">
+                        <button>More Info</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="c-content">
+                        <h1>Card One</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime
+                            minus quam molestias corporis quod, ea minima accusamus.</p>
+                    </div>
+                    <div class="btn">
+                        <button>More Info</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="c-content">
+                        <h1>Card One</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime
+                            minus quam molestias corporis quod, ea minima accusamus.</p>
+                    </div>
+                    <div class="btn">
+                        <button>More Info</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="footer">Copyright © Your Website 2023</div>
+</body>
+
+</html>
